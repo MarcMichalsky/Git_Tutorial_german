@@ -369,15 +369,13 @@ git merge <branch-name>
 
 Wurden in den beiden *Branches*, die *gemerged* werden sollten Dateien an den gleichen Stellen unterschiedlich bearbeitet, kommt es zu einem *Merge-Konflikt*. Die miteinander in Konflikt stehenden Dateien werden unter `git status` als `unmerged` angezeigt. Git hat die Konflikte in den Dateien markiert. Man kann diese nun bearbeiten und auf den gewünschten Stand bringen. Anschließend muss die korrigierte Datei wieder mit `git add` hinzugefügt werden.
 
-Ma kann auch ein grafisches Tool verwenden, um die Konflikte aufzulösen:
+Man kann auch ein grafisches Tool verwenden, um die Konflikte aufzulösen:
 
 ```bash
 git mergetool
 ```
 
 
-
-### 
 
 ## Weiterführende Informationen
 
